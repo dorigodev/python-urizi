@@ -1,0 +1,5 @@
+celsius = float(input("Digite a Temperatura é Celsius: "))
+print(f"A temperatura em Kelvin é {celsius + 273.15}K")
+print(f'A temperatura em Réaumur é {celsius *0.8 }Re')
+print(f"A temperatura em Rankine é {(celsius * 1.8)+32+459.67}Ra")
+print(f"A temperatura em Fahrenheit é {(celsius*1.8)+32}F")
